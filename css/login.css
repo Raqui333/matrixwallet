@@ -1,0 +1,206 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+}
+#iau9 {
+	font-family:Tahoma,Geneva,sans-serif;
+	color:#00ff00;
+	background-color:#080808;
+	padding-left:20px;
+	padding-right:20px;
+}
+.gjs-grid-column.feature-item {
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	display:flex;
+	flex-direction:column;
+	gap:15px;
+	min-width:30%;
+}
+.gjs-grid-column.testimonial-item {
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	display:flex;
+	flex-direction:column;
+	gap:15px;
+	min-width:45%;
+	background-color:rgba(247,247,247,0.23);
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	align-items:flex-start;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-top-color:rgba(0,0,0,0.06);
+	border-right-color:rgba(0,0,0,0.06);
+	border-bottom-color:rgba(0,0,0,0.06);
+	border-left-color:rgba(0,0,0,0.06);
+}
+.gjs-grid-column {
+	flex:1 1 0%;
+	padding:5px 0;
+}
+.gjs-grid-row {
+	display:flex;
+	justify-content:flex-start;
+	align-items:stretch;
+	flex-direction:row;
+	min-height:auto;
+	padding:10px 0;
+}
+#i24j {
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	height:100vh;
+}
+.gjs-image-box {
+	height:200px;
+	width:100%;
+}
+
+#ixiax {
+	background-image:url('../res/matrixwalletlogo.png');
+  background-size:contain;
+	background-position:center center;
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	height:100px;
+	width:100vh;
+}
+
+#ijeh {
+	flex:0 1 auto;
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+	align-items:center;
+}
+
+#i5j5x {
+	width:300px;
+	background-color:#080808;
+	border-top-color:#00ff00;
+	border-right-color:#00ff00;
+	border-bottom-color:#00ff00;
+	border-left-color:#00ff00;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-bottom-width:1px;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-left-width:0px;
+	color:#00ff00;
+	height:25px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#ib6sj {
+	width:300px;
+	background-color:#080808;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-bottom-width:1px;
+	border-top-color:#00ff00;
+	border-right-color:#00ff00;
+	border-bottom-color:#00ff00;
+	border-left-color:#00ff00;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	color:#00ff00;
+	height:25px;
+}
+#ibxbk {
+	background-color:#080808;
+	color:#00ff00;
+	font-size:16px;
+	padding-bottom:5px;
+	padding-top:5px;
+	width:100px;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-top-color:#00ff00;
+	border-right-color:#00ff00;
+	border-bottom-color:#00ff00;
+	border-left-color:#00ff00;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-left-width:1px;
+}
+#igqpr {
+	background-color:#080808;
+	color:#00ff00;
+	font-size:16px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:100px;
+	border-top-color:#00ff00;
+	border-right-color:#00ff00;
+	border-bottom-color:#00ff00;
+	border-left-color:#00ff00;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-left-width:1px;
+}
+#ibxbk:hover {
+	background-color:#003300;
+}
+#igqpr:hover {
+	background-color:#003300;
+}
+#ibxbk:active {
+	background-color:#006900;
+}
+#igqpr:active {
+	background-color:#006900;
+}
+
+#ibskx {
+  width: 90vh;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+@media (max-width:992px) {
+	.gjs-grid-row {
+	flex-direction:column;
+}
+}@media (max-width:480px) {
+	.gjs-grid-column {
+	flex:1 1 0%;
+}
+#ixiax {
+	width:100%;
+}
+}
