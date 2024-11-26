@@ -9,3 +9,11 @@ MatrixWallet is a simple and intuitive front-end to interact with the API and bl
 - **Log Area**: Allows viewing of the system logs.
 - **Send Transactions**: Functionality to send cryptocurrency transactions from one wallet to another with RSA asymmetric cryptography.
 - **Blockchain Connection**: Directly connects to the MatrixBlockchain API to interact with the blockchain.
+
+## Examples
+<p align="center">
+  <img src="./examples/login_screenshot.png" alt="example02" />
+</p>
+<p align="center">
+  <img src="./examples/home_screenshot.png" alt="example01" />
+</p>
